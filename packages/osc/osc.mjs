@@ -75,7 +75,7 @@ export async function oscTrigger(t_deprecate, hap, currentTime, cps = 1, targetT
 /**
  *
  * Sends each hap as an OSC message, which can be picked up by SuperCollider or any other OSC-enabled software.
- * For more info, read [MIDI & OSC in the docs](https://strudel.cc/learn/input-output/)
+ * For more info about the OSC standard check out the [OSC Protocol](https://en.wikipedia.org/wiki/Open_Sound_Control) page.
  *
  * @name osc
  * @memberof Pattern
